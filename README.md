@@ -1,2 +1,6 @@
 # nodejs-tutorial
-node.js tutorial
+
+## installing node.js and npm
+sudo apt-get install nodejs
+sudo apt-get install npm
+
