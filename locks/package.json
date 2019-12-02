@@ -1,10 +1,11 @@
 {
-  "name": "locks",
-  "version": "1.0.0",
-  "description": "distributed lock service",
-  "main": "service.js",
+  "name": "nodejs-tutorial",
+  "version": "0.1.0",
+  "description": "service oriented nodejs-tutorial",
+  "main": "locks/service.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node service.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0"
   }
 }

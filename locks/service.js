@@ -13,6 +13,6 @@ app.listen(port, function (err) {
     if (err) {
         console.log('error while starting server');
     } else {
-        console.log('server has been started at port ' + port);
+        console.log('server listening at port ' + port);
     }
 });
