@@ -1,0 +1,14 @@
+{
+  "name": "mocha-tutorial",
+  "version": "0.1.0",
+  "description": "mocha tutorial",
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0"
+  }
+}
