@@ -1,7 +1,7 @@
-let mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
 // book mongoose.schema definition
-let BookSchema = new mongoose.Schema(
+const BookSchema = new mongoose.Schema(
     {
         title: { type: String, required: true },
         author: { type: String, required: true },

@@ -1,17 +1,19 @@
 {
-  "name": "mocha-tutorial",
+  "name": "mocha-rest-tutorial",
   "version": "0.1.0",
-  "description": "mocha tutorial",
-  "main": "",
+  "description": "mocha REST API tutorial",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha"
+    "test": "mocha --timeout 5000"
   },
   "dependencies": {
-    "crypto": "^1.0.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.7.14"
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "mocha": "^6.2.2",
     "mongodb-memory-server": "^6.0.2"
   }
