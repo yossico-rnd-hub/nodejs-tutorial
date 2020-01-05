@@ -8,10 +8,10 @@ app.get("/url", (req, res, next) => {
     res.json(["Tony", "Lisa", "Michael", "Ginger", "Food"]);
 });
 
-// listening server
+// start listening
 app.listen(port, function (err) {
     if (err) {
-        console.log('error while starting server');
+        console.log('error while starting the server:', err);
     } else {
         console.log('server listening at port ' + port);
     }
